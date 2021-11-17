@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZaleniumVolumeMountTest">
+  <test thread-count="5" name="FileUploadTest" preserve-order="true">
+    <classes>
+      <class name="com.zalenium.testng.tests.FileDownloadTest"/>
+      <class name="com.zalenium.testng.tests.FileUploadTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

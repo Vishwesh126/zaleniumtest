@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-09T13:51:06Z" name="ZaleniumVolumeMountTest" finished-at="2021-11-09T13:51:58Z" duration-ms="51657">
+    <groups>
+    </groups>
+    <test started-at="2021-11-09T13:51:06Z" name="FileUploadTest" finished-at="2021-11-09T13:51:58Z" duration-ms="51657">
+      <class name="com.zalenium.testng.tests.FileUploadTest">
+        <test-method signature="FileDownloadTest()[pri:0, instance:com.zalenium.testng.tests.FileUploadTest@5f8edcc5]" started-at="2021-11-09T13:51:32Z" name="FileDownloadTest" finished-at="2021-11-09T13:51:58Z" duration-ms="26381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileDownloadTest -->
+      </class> <!-- com.zalenium.testng.tests.FileUploadTest -->
+      <class name="com.zalenium.testng.tests.FileDownloadTest">
+        <test-method signature="FileUploadTest()[pri:0, instance:com.zalenium.testng.tests.FileDownloadTest@6db9f5a4]" started-at="2021-11-09T13:51:06Z" name="FileUploadTest" finished-at="2021-11-09T13:51:32Z" duration-ms="25238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileUploadTest -->
+      </class> <!-- com.zalenium.testng.tests.FileDownloadTest -->
+    </test> <!-- FileUploadTest -->
+  </suite> <!-- ZaleniumVolumeMountTest -->
+</testng-results>

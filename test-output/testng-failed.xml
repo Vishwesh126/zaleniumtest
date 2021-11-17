@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZaleniumVolumeMountTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FileUploadTest(failed)">
+    <classes>
+      <class name="com.zalenium.testng.tests.FileUploadTest">
+        <methods>
+          <include name="FileDownloadTest"/>
+        </methods>
+      </class> <!-- com.zalenium.testng.tests.FileUploadTest -->
+      <class name="com.zalenium.testng.tests.FileDownloadTest">
+        <methods>
+          <include name="FileUploadTest"/>
+        </methods>
+      </class> <!-- com.zalenium.testng.tests.FileDownloadTest -->
+    </classes>
+  </test> <!-- FileUploadTest(failed) -->
+</suite> <!-- Failed suite [ZaleniumVolumeMountTest] -->
